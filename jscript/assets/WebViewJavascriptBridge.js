@@ -1,6 +1,8 @@
 //notation: js file can only use this kind of comments
 //since comments will cause error when use in webview.loadurl,
 //comments will be remove by java use regexp
+//jscript文件下的js文件为新版本SDK内部字符串压缩前的原文件，此文件只为了供大家查看使用，不需要添加到项目中；
+//JS源文件在java代码中已经做了压缩处理
 (function() {
     if (window.WebViewJavascriptBridge) {
         return;
